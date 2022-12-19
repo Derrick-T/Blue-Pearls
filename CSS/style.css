@@ -1,0 +1,38 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+
+ body{
+    background-image: url(../IMAGES/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+ }
+
+ul li{
+    display:inline-flex;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+ 
+ }
+
+ ul li a{
+    text-decoration: none;
+    color: aliceblue;
+
+
+ }
+
+ .Active, ul li a:hover{
+    background-color: rgba(214, 236, 134, 0.521);
+
+ }
+
+ .nav{
+    background-color: rgb(250, 175, 64);
+    text-align: center;
+ }
